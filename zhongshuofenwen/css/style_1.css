@@ -1,0 +1,353 @@
+/*初始化界面*/
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration:none;
+}
+@font-face{
+	font-family:'WenYue GuDianMingChaoTi (Non-Commercial Use)-W5';
+	src:url("../font/ZiXinFangMingKeBen(GuJiBan)-2.ttf") format("opentype");
+}
+
+.layout{
+	background-color: #1C2939;
+	width: 1920px;
+	height: 1600px;
+	background-image: url('../image/forum_bg.png');
+}
+
+.content{
+	font-family: KaiTi;
+	margin: 10px;
+}
+
+
+/*顶部导航栏样式*/
+
+.daohanglan {
+    position: fixed;
+    width: 100%;
+    height: 72px;
+    top: 0;
+    left: 0;
+    z-index: 999;
+
+    background-color: #ffffff4c;
+}
+
+.swjc {
+    position: absolute;
+    width: 266px;
+    height: 58px;
+    top: 5px;
+    left: 23px;
+}
+
+.swjcz {
+    width: 214px;
+    top: 11px;
+    left: 54px;
+    color: #ffffff;
+    font-size: 35px;
+    position: absolute;
+    font-family: "WenYue GuDianMingChaoTi (Non-Commercial Use)-W5", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.logo1 {
+    position: absolute;
+    width: 44px;
+    height: 58px;
+    top: 0;
+    left: 0;
+}
+
+.logo2 {
+    width: 46px;
+    height: 58px;
+}
+
+.logo3 {
+    position: relative;
+    width: 47px;
+    height: 60px;
+    top: -1px;
+    left: -1px;
+}
+
+.logo4 {
+    position: absolute;
+    width: 50px;
+    height: 60px;
+    top: 0;
+    left: 0;
+}
+
+
+.text-wrapper-5 {
+    width: 31px;
+    top: 16px;
+    left: 11px;
+    color: #ffffff;
+    font-size: 15px;
+    position: absolute;
+    font-family: "WenYue GuDianMingChaoTi (Non-Commercial Use)-W5", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.dhl {
+    position: absolute;
+    width: 788px;
+    height: 72px;
+    top: 0;
+    left: 957px;
+}
+
+.dhl1 {
+    position: absolute;
+    width: 595px;
+    height: 72px;
+    top: 0;
+    left: 0;
+}
+
+.bwsy {
+    position: absolute;
+    width: 385px;
+    height: 72px;
+    top: 0;
+    left: 0;
+}
+
+.bw1 {
+    position: absolute;
+    width: 210px;
+    height: 72px;
+    top: 0;
+    left: 175px;
+}
+
+.bw2 {
+    position: relative;
+    height: 72px;
+
+}
+.bw2:hover {
+    
+ background-image:url(../../index.img/daohangzs.png) ;
+
+ background-repeat:no-repeat;
+ background-position: center;
+}   
+
+ .bw2:active {
+     background-color: #284B8B;
+}
+
+.dh {
+    top: 17px;
+    left: 45px;
+    color: #ffffff;
+    font-size: 30px;
+    position: absolute;
+    font-family: "WenYue GuDianMingChaoTi (Non-Commercial Use)-W5", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.sy1 {
+    position: absolute;
+    width: 210px;
+    height: 72px;
+    top: 0;
+    left: 0;
+}
+
+.dh2 {
+    top: 17px;
+    left: 75px;
+    color: #ffffff;
+    font-size: 30px;
+    position: absolute;
+    font-family: "WenYue GuDianMingChaoTi (Non-Commercial Use)-W5", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.zsfw1 {
+    position: absolute;
+    width: 210px;
+    height: 72px;
+    top: 0;
+    left: 385px;
+}
+
+.wctd1 {
+    position: absolute;
+    width: 210px;
+    height: 72px;
+    top: 0;
+    left: 578px;
+}
+
+.touxiang1 {
+    position: absolute;
+    width: 80px;
+    height: 65px;
+    top: 4px;
+    left: 1818px;
+}
+
+.tx2 {
+    position: relative;
+    width: 65px;
+    height: 65px;
+   background-image: url(../image/nav/head_photo.png);
+    background-size: 100% 100%;
+    border-radius: 32.5px;
+}
+.tx2:hover{
+    background-color: #284B8B;
+}
+
+.touxiang{
+    position: absolute;
+width: 65px;
+height: 65px;
+top: 4px;
+left: 1818px;
+}
+
+.sousuo {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 22px;
+    left: 1757px;
+}
+
+#fill_area{
+	width: 100%;
+	height: 72px;
+}
+/*顶部导航栏 样式结束*/
+
+
+
+/*次级导航栏样式*/
+.nav_2nd{
+	font-family: 'WenYue GuDianMingChaoTi (Non-Commercial Use)-W5';
+	font-size: 48px;
+	margin: 10px;
+	width: 1920px;
+	height: 200px;
+	color: white;
+	
+	
+}
+
+
+.nav_2nd li{
+	float: left;
+	background-image: url('../image/nav_2nd/list_bg.png') ;
+	background-repeat: no-repeat;
+ 	background-position: center;
+ 	background-size:230px 110px;
+ 	padding: 50px;
+ 	margin: 0px 0px 50px 50px;
+ 	display: inline-block;
+
+    box-shadow: none;
+    transition: box-shadow 0.3s;
+}
+
+.nav_2nd li:hover{
+    background-size:210px 100px;
+}
+
+/*次级导航栏 样式结束*/
+
+
+
+/*论坛初始页_内容框 样式*/
+#forum_1{
+	width: 1920px;
+	height: 1100px;
+	
+}
+
+
+/*左侧消息*/
+.message_left{
+	width: 1350px;
+	height: 1072px;
+	float: left;
+	
+}
+
+#message{
+	width: 1327px;
+	height: 324px;
+	border-radius: 5px;
+	margin: 20px auto;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+#username{
+	margin-left: 10px;
+	display: inline-block;
+	vertical-align: inherit;
+	font-size: 24px;
+}
+#username_inf{
+	margin-left: 10px;
+	display: inline-block;
+	vertical-align: bottom;
+	font-size: 14px;
+}
+#message_content{
+	width: 1212px;
+	height: 120px;
+	font-size: 28px;
+	margin: auto;
+	padding: 20px;
+}
+
+#sanlian{
+	float: right;
+}
+#sanlian li{
+	float: left;
+	font-size: 32px;
+	padding: 15px;
+	vertical-align: bottom;
+	margin: au;
+}
+
+/*右侧消息*/
+.message_right{
+	width: 440px;
+	height: 1100px;
+	float: left;
+	margin-left: 60px;
+
+	position: absolute;
+    top: 233px;
+    left: 1350px;
+}
+
+
+
+
+
+
+/*论坛初始页_内容框 样式*/
+
+

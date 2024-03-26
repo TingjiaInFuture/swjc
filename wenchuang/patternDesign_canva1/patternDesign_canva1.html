@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>纹样拼贴画板</title>
+    <link rel="stylesheet" type="text/css" href="patternDesign_canva1.css">
+  
+</head>
+<body>
+    <div id="header">
+        <nav id="navbar">
+            <img src="img/logo.png">
+            <a href="../design_firstPage/design_firstPage.html" >返回首页</a>
+            <a href="#"><button class="pop" onclick="showModal()" >一键分享</button></a>
+        </nav>
+    </div>
+    <div id="myModal" class="modal">
+        <p>您是否想分享您的纹样作品到本站的“众说纷纹”？</p>
+        <p>或者分享到其他应用？</p>
+        <a href="../../zhongshuofenwen/page/forum_publish.html" class="button_pop" style="background-color:#ffffff">确认</a>
+        <a href="patternDesign_canva1.html" class="button_pop" style="background-color:#ffffff">返回</a>
+    </div>
+    <div id="container">
+        <div id="user">
+            <pattern><img src="img/creat-pattern.png"></pattern>
+            <nav>
+                <ul>
+                    <li><a href="#"><button class="nav_button">纹样素材</button></a></li>
+                    <li><a href="../patternDesign_canva2/patternDesign_canva2.html"><button class="nav_button">我的纹样</button></a></li>
+                    <li><a href="#"><button class="nav_button">色彩方案</button></a></li>
+                    <div>
+                        <span class="color-picker" style="background-color: #D6B3AA;" onclick="changeColor('#D6B3AA')"></span>
+                        <span class="color-picker" style="background-color: #9B5748;" onclick="changeColor('#9B5748')"></span>
+                        <span class="color-picker" style="background-color: #E0C281;" onclick="changeColor('#E0C281')"></span>
+                        <span class="color-picker" style="background-color: #3C718A;" onclick="changeColor('#3C718A')"></span>
+                        <span class="color-picker" style="background-color: #8EB298;" onclick="changeColor('#8EB298')"></span>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+        <div id="patterns">
+            <div id="search">
+                <img src="img/search_board.png" >
+            </div>
+            <div id="pattern1">
+                <img src="img/hw1.png" class="pattern" draggable="true" ondragstart="dragStart(event)">
+                <img src="img/hw2.png" class="pattern" draggable="true" ondragstart="dragStart(event)">
+            </div>
+            <div id="pattern2">
+                <img src="img/hw3.png" class="pattern" draggable="true" ondragstart="dragStart(event)">
+                <img src="img/hw4.png" class="pattern" draggable="true" ondragstart="dragStart(event)">
+             </div>
+            <div id="pattern3">
+                <img src="img/hw5.png" class="pattern" draggable="true" ondragstart="dragStart(event)">
+                <img src="img/hw6.png" class="pattern" draggable="true" ondragstart="dragStart(event)">
+             </div>
+             <div id="pattern1">
+                <img src="img/hw1.png" class="pattern" draggable="true" ondragstart="dragStart(event)">
+                <img src="img/hw2.png" class="pattern" draggable="true" ondragstart="dragStart(event)">
+            </div>
+            <div id="pattern2">
+                <img src="img/hw3.png" class="pattern" draggable="true" ondragstart="dragStart(event)">
+                <img src="img/hw4.png" class="pattern" draggable="true" ondragstart="dragStart(event)">
+             </div>
+            <div id="pattern3">
+                <img src="img/hw5.png" class="pattern" draggable="true" ondragstart="dragStart(event)">
+                <img src="img/hw6.png" class="pattern" draggable="true" ondragstart="dragStart(event)">
+             </div>
+             <div id="pattern1">
+                <img src="img/hw1.png" class="pattern" draggable="true" ondragstart="dragStart(event)">
+                <img src="img/hw2.png" class="pattern" draggable="true" ondragstart="dragStart(event)">
+            </div>
+            <div id="pattern2">
+                <img src="img/hw3.png" class="pattern" draggable="true" ondragstart="dragStart(event)">
+                <img src="img/hw4.png" class="pattern" draggable="true" ondragstart="dragStart(event)">
+             </div>
+            <div id="pattern3">
+                <img src="img/hw5.png" class="pattern" draggable="true" ondragstart="dragStart(event)">
+                <img src="img/hw6.png" class="pattern" draggable="true" ondragstart="dragStart(event)">
+             </div>
+   
+   
+        </div>
+        <div id="canvas" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="img/huaban.png"></div>
+        <div id="buttons">
+            <button class="button"><img src="img/icon_re.png"></button>
+            <button class="button"><img src="img/icon_redo.png"></button>
+            <button class="button"><img src="img/icon_help.png"></button>
+            <button class="button"><img src="img/icon_setting.png"></button>
+            <button class="button"><img src="img/icon_draw.png"></button>
+        </div>
+    </div>
+
+    <script src="patternDesign_canva1.js"></script>
+</body>
+</html>

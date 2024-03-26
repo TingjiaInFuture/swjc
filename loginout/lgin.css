@@ -1,0 +1,539 @@
+@font-face{
+		font-family:'WenYue GuDianMingChaoTi (Non-Commercial Use)-W5';
+		src:url("../font/ziti.otf") format("opentype");
+} 
+
+
+
+.screen {
+	background-color: #1a336b;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 1920px;
+}
+
+.screen .overlap-wrapper {
+	background-color: #1a336b;
+	width: 1920px;
+	height: 1080px;
+}
+
+.screen .overlap {
+	position: relative;
+	width: 1920px;
+	height: 1080px;
+	background-image: url(img/bkg.png);
+    background-size: 100% 100%;
+}
+
+.screen .overlap-group {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	top: 0;
+	left: 0;
+}
+
+.screen .img {
+	position: absolute;
+	width: 1920px;
+	height: 815px;
+	top: 57px;
+	left:0px;
+
+}
+
+.screen .pingzhuo {
+	position: absolute;
+	width: 560px;
+	height: 1080px;
+	top: 9px;
+	left: 259px;
+	object-fit: cover;
+}
+
+.screen .swjct {
+	position: absolute;
+	width: 94px;
+	height: 78px;
+	top: 301px;
+	left: 501px;
+	object-fit: cover;
+}
+
+.screen .view {
+	position: absolute;
+	width: 530px;
+	height: 762px;
+	top: 178px;
+	left: 1073px;
+}
+
+.screen .group {
+	position: absolute;
+	width: 331px;
+	height: 115px;
+	top: 0;
+	left: 43px;
+}
+
+.screen .group-2 {
+	position: absolute;
+	width: 337px;
+	height: 67px;
+	top: 56px;
+	left: -4px;
+}
+
+.screen .text-wrapper {
+	position: absolute;
+	top: 0;
+	left: 63px;
+	font-family: "Poppins-Regular", Helvetica;
+	font-weight: 400;
+	color: #ffffff;
+	font-size: 20px;
+	letter-spacing: 0;
+	line-height: normal;
+}
+
+.screen .div {
+	position: absolute;
+	width: 532px;
+	height: 525px;
+	top: 137px;
+	left: 0;
+}
+
+.screen .group-3 {
+	position: absolute;
+	width: 439px;
+	height: 90px;
+	top: 75px;
+	left: 0;
+}
+
+.screen .div-wrapper {
+	position: absolute;
+	width: 435px;
+	height: 54px;
+	top: 36px;
+	left: 0;
+	background-color: #ffffff;
+	border-radius: 40px;
+	border: 1px solid;
+	border-color: #6684a0;
+}
+
+.screen .text-wrapper-2 {
+	top: 14px;
+	left: 30px;
+	font-family: "Poppins-Light", Helvetica;
+	font-weight: 350;
+	color: #acacac;
+	font-size: 18px;
+	position: absolute;
+	letter-spacing: 0;
+	line-height: normal;
+	border: none;
+	outline:medium;
+}
+
+.screen .text-wrapper-3 {
+	top: 0;
+	left: 0;
+	font-family: "Poppins-Regular", Helvetica;
+	font-weight: 400;
+	color: #ffffff;
+	font-size: 16px;
+	position: absolute;
+	letter-spacing: 0;
+	line-height: normal;
+}
+
+.screen .overlap-group-wrapper {
+	position: absolute;
+	width: 435px;
+	height: 90px;
+	top: 195px;
+	left: 0;
+}
+
+.screen .overlap-2 {
+	position: relative;
+	width: 439px;
+	height: 90px;
+}
+
+.screen .group-4 {
+	position: absolute;
+	width: 439px;
+	height: 90px;
+	top: 0;
+	left: 0;
+}
+
+.screen .invisible {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 54px;
+	left: 389px;
+}
+
+.screen .overlap-3 {
+	position: absolute;
+	width: 435px;
+	height: 90px;
+	top: 315px;
+	left: 0;
+}
+
+.screen .group-5 {
+	position: absolute;
+	width: 435px;
+	height: 90px;
+	top: 0;
+	left: 0;
+}
+
+.screen .group-6 {
+	position: absolute;
+	width: 18px;
+	height: 16px;
+	top: 55px;
+	left: 398px;
+}
+
+.screen .overlap-4 {
+	position: absolute;
+	width: 435px;
+	height: 90px;
+	top: 435px;
+	left: 0;
+}
+
+.screen .group-7 {
+	position: absolute;
+	width: 18px;
+	height: 16px;
+	top: 52px;
+	left: 398px;
+}
+
+.screen .text-wrapper-4 {
+	width: 454px;
+	top: 0;
+	left: 76px;
+	font-family: "Poppins-Regular", Helvetica;
+	font-weight: 400;
+	color: #a6a6a6;
+	font-size: 16px;
+	position: absolute;
+	letter-spacing: 0;
+	line-height: normal;
+}
+
+.screen .group-8 {
+	position: absolute;
+	width: 234px;
+	height: 49px;
+	top: 713px;
+	left: 102px;
+}
+
+.screen .overlap-5 {
+	position: relative;
+	width: 232px;
+	height: 49px;
+	background-color: #6684a0;
+	border-radius: 36px;
+}
+.screen .overlap-5:hover {
+	background-color: #96B8D7;
+	box-shadow: 0px 4px 4px #00000040;
+}
+
+
+.screen .text-wrapper-5 {
+	top: 13px;
+	left: 94px;
+	font-family: "Poppins-Regular", Helvetica;
+	font-weight: 400;
+	color: #ffffff;
+	font-size: 16px;
+	position: absolute;
+	letter-spacing: 0;
+	line-height: normal;
+	text-align: center;
+}
+
+.screen .huawen {
+	position: absolute;
+	width: 517px;
+	height: 505px;
+	top: 549px;
+	left: 501px;
+	object-fit: cover;
+}
+
+.screen .logo {
+	position: absolute;
+	width: 152px;
+	height: 165px;
+	top: 898px;
+	left: 1752px;
+	object-fit: cover;
+}
+
+.screen .daohanglan {
+		position: fixed;
+		width: 1920px;
+		height: 72px;
+		top: 0;
+		left: 8px;
+		z-index: 999;
+
+		background-color: #8D95A0;
+}
+
+.screen .swjc {
+		position: absolute;
+		width: 266px;
+		height: 58px;
+		top: 5px;
+		left: 23px;
+}
+
+.screen .swjcz {
+		width: 214px;
+		top: 11px;
+		left: 54px;
+		color: #ffffff;
+		font-size: 35px;
+		position: absolute;
+		font-family: "WenYue GuDianMingChaoTi (Non-Commercial Use)-W5", Helvetica;
+		font-weight: 400;
+		letter-spacing: 0;
+		line-height: normal;
+}
+
+.screen .logo1 {
+		position: absolute;
+		width: 44px;
+		height: 58px;
+		top: 0;
+		left: 0;
+}
+
+.screen .logo2 {
+		width: 46px;
+		height: 58px;
+}
+
+.screen .logo3 {
+		position: relative;
+		width: 47px;
+		height: 60px;
+		top: -1px;
+		left: -1px;
+}
+
+.screen .logo4 {
+		position: absolute;
+		width: 50px;
+		height: 60px;
+		top: 0;
+		left: 0;
+}
+
+
+
+.screen .dhl {
+		position: absolute;
+		width: 788px;
+		height: 72px;
+		top: 0;
+		left: 957px;
+}
+
+.screen .dhl1 {
+		position: absolute;
+		width: 595px;
+		height: 72px;
+		top: 0;
+		left: 0;
+}
+
+.screen .bwsy {
+		position: absolute;
+		width: 385px;
+		height: 72px;
+		top: 0;
+		left: 0;
+}
+
+.screen .bw1 {
+		position: absolute;
+		width: 210px;
+		height: 72px;
+		top: 0;
+		left: 175px;
+}
+
+.screen .bw2 {
+		position: relative;
+		height: 72px;
+
+}
+
+.screen .bw2:hover {
+    
+ background-image:url(../index.img/daohangzs.png) ;
+
+ background-repeat:no-repeat;
+ background-position: center;
+}   
+
+.screen .bw2:active {
+     background-color: #284B8B;
+}
+
+.screen .dh {
+		top: 17px;
+		left: 45px;
+		color: #ffffff;
+		font-size: 30px;
+		position: absolute;
+		font-family: "WenYue GuDianMingChaoTi (Non-Commercial Use)-W5", Helvetica;
+		font-weight: 400;
+		letter-spacing: 0;
+		line-height: normal;
+}
+
+.screen .sy1 {
+		position: absolute;
+		width: 210px;
+		height: 72px;
+		top: 0;
+		left: 0;
+}
+
+.screen .dh2 {
+		top: 17px;
+		left: 75px;
+		color: #ffffff;
+		font-size: 30px;
+		position: absolute;
+		font-family: "WenYue GuDianMingChaoTi (Non-Commercial Use)-W5", Helvetica;
+		font-weight: 400;
+		letter-spacing: 0;
+		line-height: normal;
+}
+
+.screen .zsfw1 {
+		position: absolute;
+		width: 210px;
+		height: 72px;
+		top: 0;
+		left: 385px;
+}
+
+.screen .wctd1 {
+		position: absolute;
+		width: 210px;
+		height: 72px;
+		top: 0;
+		left: 578px;
+}
+
+.screen .touxiang1 {
+		position: absolute;
+		width: 80px;
+		height: 65px;
+		top: 4px;
+		left: 1818px;
+}
+
+.screen .tx2 {
+		position: relative;
+		width: 65px;
+		height: 65px;
+		background-color: #000000b2;
+		border-radius: 32.5px;
+}
+.screen .tx2:hover{
+		background-color: #284B8B;
+}
+
+.screen .tx3 {
+		top: 6px;
+		left: 23px;
+		color: #ffffff;
+		font-size: 20px;
+		position: absolute;
+		font-family: "WenYue GuDianMingChaoTi (Non-Commercial Use)-W5", Helvetica;
+		font-weight: 400;
+		letter-spacing: 0;
+		line-height: normal;
+}
+
+.screen .sousuo {
+		position: absolute;
+		width: 35px;
+		height: 35px;
+		top: 22px;
+		left: 1757px;
+}
+.screen .rct0 {
+	position: absolute;
+width: 329px;
+height: 59px;
+top: 60px;
+left: 5px;
+background-color: #e4e3df;
+border-radius: 33px;
+}
+.screen .rct1 {
+	position: absolute;
+width: 146px;
+height: 40px;
+top: 67px;
+left: 180px;
+background-color: #6684a0;
+border-radius: 33px;
+box-shadow: 0px 4px 4px #00000040;
+}
+.screen .denglu {
+	position: absolute;
+top: 76px;
+left: 75px;
+font-family: "Poppins-Regular", Helvetica;
+font-weight: 400;
+color: #6684a0;
+font-size: 16px;
+letter-spacing: 0;
+line-height: normal;
+}
+.screen .zhuce {
+	position: absolute;
+top: 75px;
+left: 235px;
+font-family: "Poppins-Regular", Helvetica;
+font-weight: 400;
+color: #ffffff;
+font-size: 16px;
+letter-spacing: 0;
+line-height: normal;
+}
+.screen .label0 {
+	width: 32px;
+height: 24px;
+
+}
+.screen .label1 {
+	width: 32px;
+height: 24px;
+
+}

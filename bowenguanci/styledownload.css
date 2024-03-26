@@ -1,0 +1,878 @@
+@font-face{
+    font-family:'wenYue GuDianMingChaoTi (Non-Commercial Use)-W5';
+    src:url("ZiXin.ttf");
+}
+a:link{
+  color: white;
+}
+a:hover{
+  color:#A8BCC7;
+}
+a:visited{
+  color: white;
+}
+
+.screen {
+  background-color: #1c2939;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1920px;
+}
+
+.screen .overlap-wrapper {
+  background-color: #1c2939;
+  width: 1920px;
+  height: 1200px;
+}
+
+.screen .overlap {
+  position: relative;
+  height: 1200px;
+}
+
+.screen .element {
+  position: absolute;
+  width: 473px;
+  height: 1025px;
+  top: 55px;
+  left: 1447px;
+}
+
+.screen .daohanglan {
+    position: fixed;
+    width: 100%;
+    height: 72px;
+    top: 0;
+    left: 0;
+    z-index: 999;
+
+    background-color: #ffffff4c;
+}
+
+.screen .swjc {
+    position: absolute;
+    width: 266px;
+    height: 58px;
+    top: 5px;
+    left: 23px;
+}
+
+.screen .swjcz {
+    width: 214px;
+    top: 11px;
+    left: 54px;
+    color: #ffffff;
+    font-size: 35px;
+    position: absolute;
+    font-family: "WenYue GuDianMingChaoTi (Non-Commercial Use)-W5", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.screen .logo1 {
+    position: absolute;
+    width: 44px;
+    height: 58px;
+    top: 0;
+    left: 0;
+}
+
+.screen .logo2 {
+    width: 46px;
+    height: 58px;
+}
+
+.screen .logo3 {
+    position: relative;
+    width: 47px;
+    height: 60px;
+    top: -1px;
+    left: -1px;
+}
+
+.screen .logo4 {
+    position: absolute;
+    width: 50px;
+    height: 60px;
+    top: 0;
+    left: 0;
+}
+
+
+.screen .text-wrapper-5 {
+    width: 31px;
+    top: 16px;
+    left: 11px;
+    color: #ffffff;
+    font-size: 15px;
+    position: absolute;
+    font-family: "WenYue GuDianMingChaoTi (Non-Commercial Use)-W5", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.screen .dhl {
+    position: absolute;
+    width: 788px;
+    height: 72px;
+    top: 0;
+    left: 957px;
+}
+
+.screen .dhl1 {
+    position: absolute;
+    width: 595px;
+    height: 72px;
+    top: 0;
+    left: 0;
+}
+
+.screen .bwsy {
+    position: absolute;
+    width: 385px;
+    height: 72px;
+    top: 0;
+    left: 0;
+}
+
+.screen .bw1 {
+    position: absolute;
+    width: 210px;
+    height: 72px;
+    top: 0;
+    left: 175px;
+}
+
+.screen .bw2 {
+    position: relative;
+    height: 72px;
+
+}
+.screen .bw2:hover {
+    
+ background-image:url(img/daohangzs.png) ;
+
+ background-repeat:no-repeat;
+ background-position: center;
+}   
+
+.screen .bw2:active {
+     background-color: #284B8B;
+}
+.screen .dh {
+    top: 17px;
+    left: 45px;
+    color: #ffffff;
+    font-size: 30px;
+    position: absolute;
+    font-family: "WenYue GuDianMingChaoTi (Non-Commercial Use)-W5", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.screen .sy1 {
+    position: absolute;
+    width: 210px;
+    height: 72px;
+    top: 0;
+    left: 0;
+}
+
+.screen .dh2 {
+    top: 17px;
+    left: 75px;
+    color: #ffffff;
+    font-size: 30px;
+    position: absolute;
+    font-family: "WenYue GuDianMingChaoTi (Non-Commercial Use)-W5", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.screen .zsfw1 {
+    position: absolute;
+    width: 210px;
+    height: 72px;
+    top: 0;
+    left: 385px;
+}
+
+.screen .wctd1 {
+    position: absolute;
+    width: 210px;
+    height: 72px;
+    top: 0;
+    left: 578px;
+}
+
+.screen .touxiang1 {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    top: 4px;
+    left: 1818px;
+}
+
+.screen .tx2 {
+    position: relative;
+    width: 65px;
+    height: 65px;
+    background-color: #000000b2;
+    border-radius: 32.5px;
+    background-image: url(img/ljmtouxiang.png);
+    background-size: 100% 100%;
+}
+.screen .tx2:hover{
+    background-color: #284B8B;
+}
+
+.screen .tx3 {
+    top: 6px;
+    left: 23px;
+    color: #ffffff;
+    font-size: 20px;
+    position: absolute;
+    font-family: "WenYue GuDianMingChaoTi (Non-Commercial Use)-W5", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.screen .sousuo {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 22px;
+    left: 1757px;
+}
+
+.screen .text-wrapper {
+  position: absolute;
+  width: 214px;
+  top: 11px;
+  left: 50px;
+  color: #ffffff;
+  font-size: 35px;
+  font-family: "WenYue GuDianMingChaoTi (Non-Commercial Use)-W5", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .group-wrapper {
+  position: absolute;
+  width: 44px;
+  height: 58px;
+  top: 0;
+  left: 0;
+}
+
+.screen .overlap-group-wrapper {
+  width: 46px;
+  height: 58px;
+}
+
+.screen .overlap-group {
+  position: relative;
+  width: 47px;
+  height: 60px;
+  top: -1px;
+  left: -2px;
+}
+
+.screen .vector {
+  position: absolute;
+  width: 20px;
+  height: 60px;
+  top: 0;
+  left: 0;
+}
+
+.screen .img {
+  position: absolute;
+  width: 20px;
+  height: 60px;
+  top: 0;
+  left: 27px;
+}
+
+.screen .div {
+  position: absolute;
+  width: 31px;
+  top: 16px;
+  left: 11px;
+  font-family: "WenYue GuDianMingChaoTi (Non-Commercial Use)-W5", Helvetica;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .overlap-2 {
+  position: absolute;
+  width: 835px;
+  height: 72px;
+  top: 0;
+  left: 957px;
+}
+
+.screen .group-2 {
+  position: absolute;
+  width: 805px;
+  height: 72px;
+  top: 0;
+  left: 0;
+}
+
+.screen .div-wrapper {
+  position: absolute;
+  width: 210px;
+  height: 72px;
+  top: 0;
+  left: 595px;
+}
+
+.screen .text-wrapper-2 {
+  position: absolute;
+  top: 17px;
+  left: 45px;
+  font-family: "WenYue GuDianMingChaoTi (Non-Commercial Use)-W5", Helvetica;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .overlap-3 {
+  position: absolute;
+  width: 385px;
+  height: 72px;
+  top: 0;
+  left: 0;
+}
+
+.screen .div-wrapper-2 {
+  position: absolute;
+  width: 210px;
+  height: 72px;
+  top: 0;
+  left: 175px;
+}
+
+.screen .div-wrapper-3 {
+  position: absolute;
+  width: 210px;
+  height: 72px;
+  top: 0;
+  left: 0;
+}
+
+.screen .text-wrapper-3 {
+  position: absolute;
+  top: 17px;
+  left: 75px;
+  font-family: "WenYue GuDianMingChaoTi (Non-Commercial Use)-W5", Helvetica;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .div-wrapper-4 {
+  position: absolute;
+  width: 210px;
+  height: 72px;
+  top: 0;
+  left: 385px;
+}
+
+.screen .vector-2 {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 22px;
+  left: 800px;
+}
+
+.screen .overlap-wrapper-2 {
+  position: absolute;
+  width: 80px;
+  height: 65px;
+  top: 4px;
+  left: 1818px;
+}
+
+.screen .overlap-4 {
+  position: relative;
+  width: 65px;
+  height: 65px;
+  background-color: #000000b2;
+  border-radius: 32.5px;
+}
+
+.screen .text-wrapper-4 {
+  position: absolute;
+  top: 6px;
+  left: 23px;
+  font-family: "WenYue GuDianMingChaoTi (Non-Commercial Use)-W5", Helvetica;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .frame {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+  top: 131px;
+  left: 67px;
+}
+
+.screen .frame-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 84px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.screen .group-3 {
+  position: relative;
+  width: 39.38px;
+  height: 95px;
+}
+
+.screen .frame-3 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 123px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.screen .image {
+  position: relative;
+  width: 694px;
+  height: 694px;
+}
+
+.screen .frame-4 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 45px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.screen .frame-5 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.screen .text-wrapper-5 {
+  position: relative;
+  width: 308px;
+  margin-top: -1px;
+  font-family: "WenYue GuDianMingChaoTi (Non-Commercial Use)-W5", Helvetica;
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .frame-6 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 27px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.screen .group-4 {
+  position: relative;
+  width: 104px;
+  height: 39px;
+}
+
+.screen .overlap-group-2 {
+  position: relative;
+  height: 39px;
+  border-radius: 3px;
+}
+
+.screen .frame-7 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 7px 32px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.screen .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "WenYue GuDianMingChaoTi (Non-Commercial Use)-W5", Helvetica;
+  color: #0f1f6c;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .element-2 {
+  position: absolute;
+  width: 102px;
+  height: 37px;
+  top: 1px;
+  left: 1px;
+}
+
+.screen .group-5 {
+  position: relative;
+  width: 124px;
+  height: 39px;
+}
+
+.screen .element-3 {
+  position: absolute;
+  width: 122px;
+  height: 37px;
+  top: 1px;
+  left: 1px;
+}
+
+.screen .p {
+  position: relative;
+  width: 715px;
+  font-family: "WenYue GuDianMingChaoTi (Non-Commercial Use)-W5", Helvetica;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .span {
+  text-decoration: underline;
+}
+
+.screen .text-wrapper-7 {
+  font-family: "WenYue GuDianMingChaoTi (Non-Commercial Use)-W5", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 0;
+}
+
+.screen .frame-8 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 30px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.screen .frame-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.screen .frame-9 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.screen .rectangle {
+  position: relative;
+  width: 386px;
+  height: 66px;
+  background-color: #ffffff;
+  border-radius: 3px;
+}
+
+.screen .frame-10 {
+  display: flex;
+  width: 268px;
+  align-items: center;
+  position: absolute;
+  top: 8px;
+  left: 110px;
+}
+
+.screen .material-symbols {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+.screen .text-wrapper-8 {
+  position: relative;
+  width: 115px;
+  margin-top: -1px;
+  color: #0f1f6c;
+  font-size: 40px;
+  font-family: "WenYue GuDianMingChaoTi (Non-Commercial Use)-W5", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .frame-11 {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.screen .iconoir-design-nib {
+  position: relative;
+  width: 45px;
+  height: 44px;
+}
+
+.screen .frame-12 {
+  display: inline-flex;
+  align-items: center;
+  gap: 62px;
+  position: absolute;
+  top: 800px;
+  left: 417px;
+}
+
+.screen .vector-3 {
+  position: relative;
+  width: 31px;
+  height: 24px;
+}
+
+.screen .frame-13 {
+  display: flex;
+  width: 847px;
+  align-items: center;
+  gap: 29px;
+  position: relative;
+}
+
+.screen .image-2 {
+  position: relative;
+  width: 150px;
+  height: 150.82px;
+  object-fit: cover;
+}
+
+.screen .image-3 {
+  position: relative;
+  width: 130px;
+  height: 124.55px;
+  object-fit: cover;
+}
+
+.screen .image-4 {
+  position: relative;
+  width: 130px;
+  height: 127.21px;
+  object-fit: cover;
+}
+
+.screen .image-5 {
+  position: relative;
+  width: 130px;
+  height: 128.13px;
+  object-fit: cover;
+}
+
+.screen .image-6 {
+  position: relative;
+  width: 130px;
+  height: 125.42px;
+  object-fit: cover;
+}
+
+.screen .vector-4 {
+  position: absolute;
+  width: 31px;
+  height: 24px;
+  top: 63px;
+  left: 912px;
+}
+.screen .rectangle-2 {
+  position: absolute;
+  width: 2000px;
+  height: 1200px;
+  top: 0;
+  left: 0;
+  background-color: #0000004c;
+}
+
+.screen .pop {
+  display: flex;
+  width: 925px;
+  height: 529px;
+  align-items: center;
+  gap: 27px;
+  position: absolute;
+  top: 268px;
+  left: 499px;
+}
+
+.screen .group-6 {
+  position: relative;
+  width: 925px;
+  height: 510px;
+  background-color: #000000cc;
+  border-radius: 5px;
+}
+
+.screen .frame-14 {
+  display: flex;
+  flex-direction: column;
+  width: 366px;
+  height: 358px;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+  top: 104px;
+  left: 83px;
+}
+
+.screen .rectangle-3 {
+  position: relative;
+  width: 366px;
+  height: 358px;
+  background-color: #ffffff;
+  border-radius: 6px;
+}
+
+.screen .image-7 {
+  position: absolute;
+  width: 333px;
+  height: 334px;
+  top: 12px;
+  left: 16px;
+  object-fit: cover;
+}
+
+.screen .frame-15 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  position: absolute;
+  top: 95px;
+  left: 476px;
+}
+
+.screen .frame-16 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.screen .rectangle-4 {
+  width: 300px;
+  height: 51.3px;
+  background-color: #ffffff;
+  position: relative;
+  border-radius: 3px;
+}
+
+.screen .text-wrapper-9 {
+  position: absolute;
+  width: 115px;
+  top: 10px;
+  left: 102px;
+  font-family: "WenYue GuDianMingChaoTi (Non-Commercial Use)-W5", Helvetica;
+  font-weight: 400;
+  color: #0f1f6c;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .frame-17 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.screen .rectangle-5 {
+  width: 126px;
+  height: 51px;
+  background-color: #0f1f6c;
+  position: relative;
+  border-radius: 3px;
+}
+
+.screen .text-wrapper-10 {
+  position: absolute;
+  width: 51px;
+  top: 10px;
+  left: 40px;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "WenYue GuDianMingChaoTi (Non-Commercial Use)-W5", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .frame-18 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.screen .group-7 {
+  position: absolute;
+  width: 275px;
+  height: 57px;
+  top: 20px;
+  left: 338px;
+}
