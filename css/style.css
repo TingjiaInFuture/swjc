@@ -31,6 +31,16 @@
     left: -1px;
 }
 
+/* 媒体查询，当屏幕宽度小于或等于 1920px 时应用以下样式 */
+@media screen and (max-width: 1920px) {
+    .screen {
+        width: 100%;
+    }
+
+    .screen .overlap {
+        width: 100%;
+    }
+}
 .screen .v {
     display: flex;
     width: 1921px;
@@ -303,7 +313,7 @@
     line-height: normal;
 }
 
-.screen .dhl {
+.screen .nav {
     position: absolute;
     width: 788px;
     height: 72px;
@@ -311,7 +321,7 @@
     left: 957px;
 }
 
-.screen .dhl1 {
+.screen .nav1 {
     position: absolute;
     width: 595px;
     height: 72px;
