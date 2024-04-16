@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 1920px;
+    /* width: 1920px; */
 }
 
 .screen .div {
@@ -25,13 +25,13 @@
 
 .screen .overlap {
     position: absolute;
-    width: 1921px;
+    width: 100%;
     height: 1080px;
     top: 0;
     left: -1px;
 }
 
-/* 媒体查询，当屏幕宽度小于或等于 1920px 时应用以下样式 */
+/* åª’ä½“æŸ¥è¯¢ï¼Œå½“å±å¹•å®½åº¦å°äºŽæˆ–ç­‰äºŽ 1920px æ—¶åº”ç”¨ä»¥ä¸‹æ ·å¼ */
 @media screen and (max-width: 1920px) {
     .screen {
         width: 100%;
@@ -43,7 +43,7 @@
 }
 .screen .v {
     display: flex;
-    width: 1921px;
+    width: 100%;
     align-items: center;
     gap: 104px;
     position: absolute;
@@ -452,7 +452,7 @@
     left: 1757px;
 }
 
-.screen .footer {
+.screen .element-2 {
     position: absolute;
     width: 1922px;
     height: 400px;
