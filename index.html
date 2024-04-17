@@ -124,11 +124,12 @@
                                 <div class="text-wrapper-14">您的每一条反馈都对我们有所帮助！</div>
                                 <div class="text-wrapper-15">欢迎将本网站分享给他人，让给更多人了解瓷器纹样之美吧！</div>
 
-                                <div class="group-4">
-                                    <img class="vector-4" src="index.img/fxfkkuang.png" />
+                                <div class="group-4" onclick="share()">
+                                    <img class="vector-4" src="index.img/fxfkkuang.png">
                                     <div class="overlap-group-6">
                                         <div class="text-wrapper-16">分享</div>
                                     </div>
+                                    <div id="tooltip" style="visibility: hidden;">已复制</div>
                                 </div>
                                 <div class="group-5">
                                     <img class="vector-4" src="index.img/fxfkkuang.png" />
@@ -203,23 +204,6 @@
 </body>
 
 
-
-<script>
-    var index = 0;
-    //效果
-    function ChangeImg() {
-        index++;
-        var a = document.getElementsByClassName("img-slide");
-        if (index >= a.length) index = 0;
-        for (var i = 0; i < a.length; i++) {
-            a[i].style.display = 'none';
-        }
-        a[index].style.display = 'block';
-    }
-    //设置定时器，每隔两秒切换一张图片
-    setInterval(ChangeImg, 3000);
-
-
-</script>
+<script src="js/index.js"></script>
 
 </html>
