@@ -1,53 +1,71 @@
-@font-face{
-    font-family:'wenYue GuDianMingChaoTi (Non-Commercial Use)-W5';
-    src:url("ZiXin.ttf");
+@font-face {
+    font-family: 'wenYue GuDianMingChaoTi (Non-Commercial Use)-W5';
+    src: url("ZiXin.ttf");
 }
-ul{
+
+ul {
     width: 470px;
     height: 50px;
     line-height: 50px;
     background-color: #284b8b;
-}/* 对导航栏的整体样式进行设置 */
-ul li{
+}
+
+/* 对导航栏的整体样式进行设置 */
+ul li {
     list-style: none;
     float: left;
-    font-family:'wenYue GuDianMingChaoTi (Non-Commercial Use)-W5';
-}/* 删除列表的样式并设置浮动 */
-a{
+    font-family: 'wenYue GuDianMingChaoTi (Non-Commercial Use)-W5';
+}
+
+/* 删除列表的样式并设置浮动 */
+a {
     color: white;
     padding: 40px;
     margin: 0px;
     text-decoration: none;
-}/* 设置a标签的样式 */
+}
+
+/* 设置a标签的样式 */
 
 .nav1 {
-    position: relative;/* 设置相对定位 */
-    display: inline-block;/* 让元素具有块级元素和行内元素的特性,即将块级元素转化为内联元素 */
+    position: relative;
+    /* 设置相对定位 */
+    display: inline-block;
+    /* 让元素具有块级元素和行内元素的特性,即将块级元素转化为内联元素 */
 }
 
 .nav2 {
-    display: none;/* 将某元素隐藏起来 */
-    position: absolute;/* 绝对定位 */
+    display: none;
+    /* 将某元素隐藏起来 */
+    position: absolute;
+    /* 绝对定位 */
     background-color: #284b8b;
-    min-width: 50px;/* 最小宽度 */
+    min-width: 50px;
+    /* 最小宽度 */
 }
 
 .nav2 a {
     color: white;
     padding: 5px 32px;
-    display: block;/* 将a标签设置为块级标签 */
+    display: block;
+    /* 将a标签设置为块级标签 */
     text-align: center;
 }
 
 .nav2 a:hover {
     background-color: #888888
-}/* 鼠标悬浮时的颜色 */
+}
+
+/* 鼠标悬浮时的颜色 */
 
 .nav1:hover .nav2 {
     display: block;
-}/* 鼠标悬浮在元素上时,变为块级标签 */
+}
 
-.nav1:hover,li:hover{
+/* 鼠标悬浮在元素上时,变为块级标签 */
+
+.nav1:hover,
+li:hover {
     background-color: #888888;
 }
 
@@ -116,7 +134,7 @@ a{
     top: -2px;
     left: 2px;
     transform: rotate(89.77deg);
-    font-family:'wenYue GuDianMingChaoTi (Non-Commercial Use)-W5';
+    font-family: 'wenYue GuDianMingChaoTi (Non-Commercial Use)-W5';
     font-weight: 100;
     color: #ffffff;
     font-size: 25.6px;
@@ -768,7 +786,7 @@ a{
     background-color: #ffffff4c;
 }
 
-.element  .swjc {
+.element .swjc {
     position: absolute;
     width: 266px;
     height: 58px;
@@ -826,15 +844,15 @@ a{
     left: 957px;
 }
 
-.element .nav1 {
-    position: absolute;
+.element .dnav {
+    position: relative;
     width: 595px;
     height: 72px;
     top: 0;
     left: 0;
 }
 
-.element  .bwsy {
+.element .bwsy {
     position: absolute;
     width: 385px;
     height: 72px;
@@ -850,22 +868,24 @@ a{
     left: 175px;
 }
 
-.element  .bw2 {
+.element .bw2 {
     position: relative;
     height: 72px;
 
 }
-.element .bw2:hover {
-    
- background-image:url(img/daohangzs.png) ;
 
- background-repeat:no-repeat;
- background-position: center;
-}   
+.element .bw2:hover {
+
+    background-image: url(img/daohangzs.png);
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 .element .bw2:active {
-     background-color: #284B8B;
+    background-color: #284B8B;
 }
+
 .element .dh {
     top: 17px;
     left: 45px;
@@ -922,24 +942,25 @@ a{
     left: 1818px;
 }
 
-.element  .tx2 {
+.element .tx2 {
     position: relative;
     width: 65px;
     height: 65px;
-   background-image: url(img/ljmtouxiang.png);
+    background-image: url(img/ljmtouxiang.png);
     background-size: 100% 100%;
     border-radius: 32.5px;
 }
-.element .tx2:hover{
+
+.element .tx2:hover {
     background-color: #284B8B;
 }
 
-.element .touxiang{
+.element .touxiang {
     position: absolute;
-width: 65px;
-height: 65px;
-top: 4px;
-left: 1818px;
+    width: 65px;
+    height: 65px;
+    top: 4px;
+    left: 1818px;
 }
 
 .element .sousuo {
@@ -1063,6 +1084,7 @@ left: 1818px;
     letter-spacing: 5.47px;
     line-height: normal;
 }
+
 .label {
     width: 528px;
     height: 65px;
@@ -1090,7 +1112,7 @@ left: 1818px;
 }
 
 .label .span {
-    font-family:  "WenYue GuDianMingChaoTi (Non-Commercial Use)-W5", Helvetica;
+    font-family: "WenYue GuDianMingChaoTi (Non-Commercial Use)-W5", Helvetica;
     font-weight: 700;
     text-decoration: underline;
 }
