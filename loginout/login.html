@@ -5,7 +5,63 @@
   <meta charset="utf-8" />
   <title>注册</title>
   <link rel="stylesheet" href="lgin.css" />
+  <style>
+    main {
+      position: absolute;
+      left: 1000px;
+      top: 200px;
+      margin: 0 auto;
+      width: 40%;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
 
+    form {
+      margin-bottom: 20px;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    textarea {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      border-radius: 5px;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    input[type="submit"] {
+      background-color: #5885d3;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 20%;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+  </style>
 </head>
 
 <body>
@@ -66,73 +122,27 @@
 
         <img class="pingzhuo" src="img/pingzhuo.png" />
         <img class="swjct" src="img/swjc.png" />
-        <div class="view">
-          <div class="group">
-
-            <div class="rct0"></div>
-            <div class="rct1"></div>
-            <a href="logzh.html">
-              <div class="label0">
-                <div class="denglu">登录</div>
-              </div>
-            </a><a href="login.html">
-              <div class="label1">
-                <div class="zhuce">注册</div>
-              </div>
-            </a>
-
-
-            <div class="text-wrapper">-欢迎来到说纹解瓷！-</div>
-          </div>
-          <div class="div">
-            <div class="group-3">
-              <div class="div-wrapper"><input class="text-wrapper-2" placeholder="输入您的账号..."></div>
-              <div class="text-wrapper-3">账号</div>
-            </div>
-            <div class="overlap-group-wrapper">
-              <div class="overlap-2">
-                <div class="group-4">
-                  <div class="div-wrapper"><input class="text-wrapper-2" placeholder="输入您的用户名..."></div>
-                  <div class="text-wrapper-3">用户名</div>
-                </div>
-
-              </div>
-            </div>
-            <div class="overlap-3">
-              <div class="group-5">
-                <div class="overlap-2">
-                  <div class="group-4">
-                    <div class="div-wrapper"><input id="psw" type="password" class="text-wrapper-2"
-                        placeholder="输入您的密码..."></div>
-                    <div class="text-wrapper-3">密码</div>
-                  </div>
-                  <img id="eye" class="invisible" src="img/invisible.png" />
-                </div>
-              </div>
-
-            </div>
-            <div class="overlap-4">
-              <div class="group-5">
-                <div class="overlap-2">
-                  <div class="group-4">
-                    <div class="div-wrapper"><input id="psw2" type="password" class="text-wrapper-2"
-                        placeholder="再次确认您的密码..."></div>
-                    <div class="text-wrapper-3">密码</div>
-                  </div>
-                  <img id="eye2" class="invisible" src="img/invisible.png" />
-                </div>
-              </div>
-
-            </div>
-            <div class="text-wrapper-4">您可以使用手机号或邮箱作为您的账号！</div>
-          </div><a href="logzh.html">
-            <div class="group-8">
-              <div class="overlap-5">
-                <div class="text-wrapper-5">注册</div>
-              </div>
-            </div>
+        <main>
+          <button onclick="toggleForms()">切换到注册</button>
+          <form id="loginForm" onsubmit="login(event)">
+            <label for="username">用户名：</label><br>
+            <input type="text" id="username" name="username"><br>
+            <label for="password">密码：</label><br>
+            <input type="password" id="password" name="password"><br>
+            <input type="submit" value="登录">
+          </form>
+          <form id="registerForm" onsubmit="register(event)" style="display: none;">
+            <label for="newUsername">用户名：</label><br>
+            <input type="text" id="newUsername" name="newUsername"><br>
+            <label for="newPassword">密码：</label><br>
+            <input type="password" id="newPassword" name="newPassword"><br>
+            <input type="submit" value="注册">
+          </form>
+          <p id="message"></p>
+          <a href="../indexafter/indexaft.html">
+            <button class="back">返回首页</button>
           </a>
-        </div>
+        </main>
         <img class="huawen" src="img/huawen.png" />
       </div>
       <img class="logo" src="../index.img/logo.png" />
@@ -174,7 +184,8 @@
     }
 
   </script>
-  <script src="../js/fix.js">       </script>
+  <script src="../js/fix.js"></script>
+  <script src="../js/user.js"></script>
 </body>
 
 </html>
